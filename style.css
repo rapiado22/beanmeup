@@ -1,0 +1,15 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+header.hero { background: #6b4f4f; color: #fff; text-align: center; padding: 4rem 1rem; }
+header.hero h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+.tagline { font-style: italic; }
+
+section { padding: 2rem 1rem; max-width: 800px; margin: auto; }
+section#about p { max-width: 700px; margin: auto; }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; }
+.item { border: 1px solid #ddd; padding: 1rem; border-radius: 8px; text-align: center; }
+
+#contact a { color: #6b4f4f; text-decoration: none; }
+#contact a:hover { text-decoration: underline; }
+
+footer { text-align: center; padding: 1rem; background: #f4f4f4; font-size: 0.9rem; }
